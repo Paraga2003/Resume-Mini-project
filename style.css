@@ -1,0 +1,167 @@
+/*body{
+    background-color: aquamarine;
+}*/
+#resume-form{
+   /*display:none;*/
+}
+#cv-template{
+    display:none;
+}
+.myimage{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 200px;
+}
+.background{
+    background-color: aquamarine;
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h3 {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Header */
+h1.text-center {
+    font-size: 2.5rem;
+}
+
+p.text-center {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #004085;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* CV Template */
+#cv-template {
+    display: none; /* Initially hidden until resume is generated */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cv-template .background {
+    background-color: #e9ecef;
+    color: #0056b3;
+}
+
+.card-header {
+    background-color: #0056b3;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.card-body {
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.image.fluid {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003f7f;
+}
+
+.btn-lg {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #cv-template .row {
+        flex-direction: column;
+    }
+
+    h1.text-center {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.icon.me-2 {
+    margin-right: 10px;
+}
