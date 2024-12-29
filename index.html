@@ -47,6 +47,21 @@
                     <label for="mailField">Email<img class="icon" src="email-icon.png" alt=""/></label>
                     <input type = "text" id = "mailField" placeholder="Enter your Email id " class="form-control"/>
                 </div>
+                <div class="form-group mt-2">
+                    <label for="languagesField">Languages Known<img class="icon" src="language-icon.png" alt=""/></label>
+                    <div id="languagesField">
+                        <div class="d-flex align-items-center mb-2">
+                            <input type="text" placeholder="Enter a language (e.g., English)" class="form-control me-2"/>
+                            <select class="form-select">
+                                <option value="Basic">Basic</option>
+                                <option value="Intermediate">Intermediate</option>
+                                <option value="Advanced">Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button onclick="addNewLanguageField()" class="btn btn-primary btn-sm">Add Another Language</button>
+                </div>
+            </div>
 
             </div>
             <div class="col-md-6">
@@ -91,7 +106,7 @@
                     <p><a id = "fbT" href = "#1"><img class="icon" src="facebook-icon.png" alt=""/>https://www.facebook.com/ParagAgrawal</a></p>
                     <p><a id = "linkedinT" href = "#2"><img class="icon" src="linkedin-icon.png" alt=""/>https://www.instagram.com/ParagAgrawal101</a></p>
                     <p><a id = "emailT" href = "#1"><img class="icon" src="email-icon.png" alt=""/>https://www.Linkedin.com/ParagAgrawal</a></p>
-
+                    <p id="languagesT"><img class="icon" src="language-icon.png" alt=""/>Languages: English (Advanced), Hindi (Intermediate), French (Basic)</p>
                 </div>
 
             </div>
